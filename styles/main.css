@@ -1,7 +1,6 @@
 /* Style the main content area */
 .main-content {
     display: flex;
-    flex-direction: row;
   }
   
   /* Style the sections within the main content */
@@ -10,8 +9,14 @@
     flex-wrap: wrap;
   }
 
-  .col2 {
+  .description1 h3 {
     margin-right: 20px;
+    text-align: left;
+  }
+
+  .description1 p {
+    margin-right: 20px;
+    text-align: right;
   }
   
   /* Style the service divs (images) */
