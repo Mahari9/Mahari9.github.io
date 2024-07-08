@@ -9,6 +9,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .col2 {
+    align-items: right;
+  }
   
   /* Style the service divs (images) */
   .service1, .service2, .service3, .service4 {
@@ -21,16 +25,6 @@
   .description1, .description2, .description3, .description4 {
     width: 50%;
     padding: 10px;
-  }
-  
-  /* Style descriptions at the top (left and right) */
-  .description1, .service1 {
-    order: 2;
-  }
-
-  /* Style descriptions at the top (left and right) */
-  .description2, .service2 {
-    order: 1;
   }
   
     
