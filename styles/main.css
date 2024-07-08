@@ -1,6 +1,7 @@
 /* Style the main content area */
 .main-content {
     display: flex;
+    flex-direction: row;
   }
   
   /* Style the sections within the main content */
@@ -9,7 +10,7 @@
     flex-wrap: wrap;
   }
 
-  section .col2 {
+  .col2 {
     margin-right: 20px;
   }
   
