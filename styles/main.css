@@ -8,16 +8,6 @@
     flex: 1;
     flex-wrap: wrap;
   }
-
-  .description1 h3 {
-    margin-right: 20px;
-    text-align: left;
-  }
-
-  .description1 p {
-    margin-right: 20px;
-    text-align: right;
-  }
   
   /* Style the service divs (images) */
   .service1, .service2, .service3, .service4 {
@@ -32,6 +22,15 @@
     padding: 10px;
   }
   
+  /* Style descriptions at the top (left and right) */
+  .description1, .service2 {
+    order: 2;
+  }
+
+  /* Style descriptions at the bottom (left and right) */
+  .description3, .service4 {
+    order: 2;
+  }
     
   /* Media query for smaller screens */
   @media (max-width: 768px) {
