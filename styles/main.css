@@ -10,8 +10,9 @@
     flex-wrap: wrap;
   }
 
-  .col2 {
+  .main-content .col2 {
     align-items: right;
+    margin-right: 20px;
   }
   
   /* Style the service divs (images) */
