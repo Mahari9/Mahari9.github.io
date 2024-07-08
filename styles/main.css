@@ -6,6 +6,7 @@
   /* Style the sections within the main content */
   .main-content section {
     flex: 1;
+    display: flex;
     flex-wrap: wrap;
   }
   
