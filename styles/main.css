@@ -24,9 +24,15 @@
   }
   
   /* Style descriptions at the top (left and right) */
-  .description1, .service2 .description3, .service4 {
-    margin-right: 10px;
+  .description1, .service1 {
+    order: 2;
   }
+
+  /* Style descriptions at the top (left and right) */
+  .description2, .service2 {
+    order: 1;
+  }
+  
     
   /* Media query for smaller screens */
   @media (max-width: 768px) {
