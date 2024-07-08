@@ -24,25 +24,10 @@
   }
   
   /* Style descriptions at the top (left and right) */
-  .description1, .service1 {
-    order: 2;
+  .description1, .service2 .description3, .service4 {
+    margin-right: 10px;
   }
-  
-  /* Style descriptions at the bottom (left and right) */
-  .description2, .service2 {
-    order: 1;
-  }
-
-  /* Style descriptions at the top (left and right) */
-  .description3, .service3 {
-    order: 2;
-  }
-  
-  /* Style descriptions at the bottom (left and right) */
-  .description4, .service4 {
-    order: 1;
-  }
-  
+    
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     /* Stack services and descriptions on top of each other for smaller screens */
