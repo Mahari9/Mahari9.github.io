@@ -325,27 +325,31 @@ div a:hover {
   border-color: #008000;
 }
   
-footer {
+.footer {
 	background-color: #00FF7F;
 	height: 40px;
 	width: 100%;
 	border-top: none;
 	display: flex;
-	flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 	bottom: 0;
 }
 
-footer p {
+.footer p {
   color: #000000;
-  margin-right: 400px;
+  margin: 0;
   font-size: 16px;
-  text-align: center;
   font-weight: bold;
 }
 
 .social {
   display: flex
-  align-items: right  ;
+}
 
+.social a image {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
 }

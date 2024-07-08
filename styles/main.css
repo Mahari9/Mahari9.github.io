@@ -1,0 +1,47 @@
+/* Style the main content area */
+.main-content {
+    display: flex;
+  }
+  
+  /* Style the sections within the main content */
+  .main-content section {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the service divs (images) */
+  .service1, .service2, .service3, .service4 {
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Style the description divs (text) */
+  .description1, .description2, .description3, .description4 {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Style descriptions at the top (left and right) */
+  .description1, .service2 {
+    order: 1;
+  }
+  
+  /* Style descriptions at the bottom (left and right) */
+  .description3, .service4 {
+    order: 2;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    /* Stack services and descriptions on top of each other for smaller screens */
+    .service1, .description1,
+    .service2, .description2,
+    .service3, .description3,
+    .service4, .description4 {
+      width: 100%;
+      order: initial; /* Reset order for stacking */
+    }
+  }
+  
