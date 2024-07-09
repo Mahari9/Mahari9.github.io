@@ -12,6 +12,16 @@
   justify-content: space-between;
 }
 
+.description1 {
+  width: 50%;
+  align-items: right;
+}
+
+.service1 {
+  width: 50%;
+  align-items: right;
+}
+
 .description1 p {
   margin-right: 10px;
   color: #000000;
@@ -32,8 +42,7 @@
   cursor: pointer;
 }
 
-.description1 h2 {
-  margin-top: 5px;
+.description1 h3 {
   margin-right: 10px;
   color: #000000;
   padding: 0px;
@@ -45,7 +54,6 @@
 .service1 img {
   margin-left: 10px;
   align-items: left;
-  width: 50%; /* Margin-left for icon next to p */
   height: 500px;
 }
 
@@ -55,7 +63,7 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex:1;
+  flex: 1;
   flex-wrap: wrap;
   flex-direction: flex; 
   justify-content: space-between;
