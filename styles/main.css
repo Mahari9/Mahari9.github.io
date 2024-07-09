@@ -6,9 +6,7 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex:1;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; 
   justify-content: space-between;
 }
 
@@ -32,7 +30,7 @@
   cursor: pointer;
 }
 
-.description1 h3 {
+.description1 h2 {
   margin-right: 10px;
   color: #000000;
   padding: 0px;
@@ -44,6 +42,7 @@
 .service1 img {
   margin-left: 10px;
   align-items: left;
+  width:100%; /* Margin-left for icon next to p */
   height: 500px;
 }
 
@@ -53,18 +52,15 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex: 1;
-  flex-wrap: wrap;
   flex-direction: row-reverse; 
   justify-content: space-between;
 }
 
 .description2 p {
-  margin-left: 10px;
+  margin-right: 10px;
   color: #000000;
   padding: 5px;
   font-size: 18px;
-  text-align: left;
   font-weight: bold;
   display: flex;
 }
@@ -80,9 +76,8 @@
   cursor: pointer;
 }
 
-.description2 h3 {
+.description2 h2 {
   margin-left: 10px;
-  text-align: left;
   color: #000000;
   padding: 0px;
   font-size: 36px;
@@ -93,7 +88,7 @@
 .service2 img {
   margin-right: 10px;
   align-items: right;
-  width: 50%; /* Margin-left for icon next to p */
+  width:100%; /* Margin-left for icon next to p */
   height: 500px;
 }
 
@@ -103,7 +98,7 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex-direction: row-reverse
+  flex-direction: row-reverse; 
   justify-content: space-between;
 }
 
@@ -114,7 +109,6 @@
   font-size: 18px;
   font-weight: bold;
   display: flex;
-  text-align: right;
 }
 
 .btn3 {
@@ -132,7 +126,6 @@
   margin-right: 10px;
   color: #000000;
   padding: 0px;
-  text-align: right;
   font-size: 36px;
   font-weight: bold;
   display: flex;
