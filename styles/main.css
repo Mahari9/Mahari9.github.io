@@ -55,12 +55,8 @@
   margin-top: 50px;
   padding: 0px;
   display: flex;
-  flex-direction: flex; 
+  flex-direction: row-reverse; 
   justify-content: space-between;
-}
-
-.description2 .service2 {
-  order: 1;
 }
 
 .description2 p {
@@ -68,7 +64,6 @@
   color: #000000;
   padding: 5px;
   font-size: 18px;
-  font-weight: bold;
   display: flex;
   margin-top: 0px;
 }
@@ -97,7 +92,7 @@
 .service2 img {
   margin-right: 10px;
   align-items: right;
-  width:600px; /* Margin-left for icon next to p */
+  width:800px; /* Margin-left for icon next to p */
   height: 500px;
 }
 
@@ -157,13 +152,8 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex-direction: flex; 
+  flex-direction: row-reverse; 
   justify-content: space-between;
-}
-
-
-.description4 .service4 {
-  order: 1;
 }
 
 .description4 p {
