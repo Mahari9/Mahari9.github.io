@@ -59,6 +59,10 @@
   justify-content: space-between;
 }
 
+.description2 .service2 {
+  order: 1;
+}
+
 .description2 p {
   margin-left: 10px;
   color: #000000;
@@ -69,7 +73,7 @@
   margin-top: 0px;
 }
 
-.btn1 {
+.btn2 {
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
@@ -93,7 +97,7 @@
 .service2 img {
   margin-right: 10px;
   align-items: right;
-  width:1000px; /* Margin-left for icon next to p */
+  width:600px; /* Margin-left for icon next to p */
   height: 500px;
 }
 
@@ -155,6 +159,11 @@
   display: flex;
   flex-direction: flex; 
   justify-content: space-between;
+}
+
+
+.description4 .service4 {
+  order: 1;
 }
 
 .description4 p {
