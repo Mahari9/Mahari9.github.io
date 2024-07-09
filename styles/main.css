@@ -1,47 +1,180 @@
 /* Style the main content area */
 .main-content {
     display: flex;
+    margin: auto;
   }
   
-  /* Style the sections within the main content */
-  .main-content section {
-    flex: 1;
+  .col1 {
+    width: 100%;
+    padding: 0px;
     display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Style the service divs (images) */
-  .service1, .service2, .service3, .service4 {
-    width: 50%;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  /* Style the description divs (text) */
-  .description1, .description2, .description3, .description4 {
-    width: 50%;
-    padding: 10px;
-  }
-  
-  /* Style descriptions at the top (left and right) */
-  .description1, .service2 {
-    order: 2;
+    flex-direction: flex; 
+    justify-content: space-between;
   }
 
-  /* Style descriptions at the bottom (left and right) */
-  .description3, .service4 {
-    order: 2;
+  .service1 {
+    margin-left: 10px;
+    align-items: left;
+    width:50%; /* Margin-left for icon next to p */
+    height: 500px;
   }
-    
-  /* Media query for smaller screens */
-  @media (max-width: 768px) {
-    /* Stack services and descriptions on top of each other for smaller screens */
-    .service1, .description1,
-    .service2, .description2,
-    .service3, .description3,
-    .service4, .description4 {
-      width: 100%;
-      order: initial; /* Reset order for stacking */
-    }
+  
+  
+  .description1 p {
+    margin-right: 10px;
+    color: #000000;
+    padding: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .btn1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .description1 h3 {
+    margin-right: 10px;
+    color: #000000;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .service2 {
+    margin-right: 10px;
+    margin-top: 10px;
+    align-items: right;
+    width:50%; /* Margin-left for icon next to p */
+    height: 500px;
+  }
+  
+  .description2 {
+    margin-top: 10px;
+  }
+  
+  .description2 p {
+    margin-left: 10px;
+    margin: 5px 5px;
+    color: #000000;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .btn2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .description2 h3 {
+    margin-left: 10px;
+    color: #000000;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .col2 {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: flex; 
+    justify-content: space-between;
+  }
+
+  .service3 {
+    margin-left: 10px;
+    align-items: left;
+    width:50%; /* Margin-left for icon next to p */
+    height: 500px;
+  }
+  
+  
+  .description3 p {
+    margin-right: 10px;
+    color: #000000;
+    padding: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .btn3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .description3 h3 {
+    margin-right: 10px;
+    color: #000000;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .service4 {
+    margin-right: 10px;
+    margin-top: 10px;
+    align-items: right;
+    width:50%; /* Margin-left for icon next to p */
+    height: 500px;
+  }
+  
+  .description4 {
+    margin-top: 10px;
+  }
+  
+  .description4 p {
+    margin-left: 10px;
+    margin: 5px 5px;
+    color: #000000;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .btn4 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .description4 h3 {
+    margin-left: 10px;
+    color: #000000;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
   }
   
