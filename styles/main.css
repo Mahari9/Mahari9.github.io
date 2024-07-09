@@ -8,18 +8,8 @@
   display: flex;
   flex:1;
   flex-wrap: wrap;
-  flex-direction: flex; 
+  flex-direction: row-reverse;
   justify-content: space-between;
-}
-
-.description1 {
-  width: 50%;
-  align-items: right;
-}
-
-.service1 {
-  width: 50%;
-  align-items: right;
 }
 
 .description1 p {
@@ -65,7 +55,7 @@
   display: flex;
   flex: 1;
   flex-wrap: wrap;
-  flex-direction: flex; 
+  flex-direction: row-reverse; 
   justify-content: space-between;
 }
 
@@ -113,7 +103,7 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row-reverse
   justify-content: space-between;
 }
 
