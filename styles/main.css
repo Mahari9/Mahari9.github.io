@@ -1,20 +1,16 @@
 /* Style the main content area */
-.main-content {
-    display: flex;
-    margin: auto;
-  }
-  
   .rest {
     width: 100%;
-    margin-top: 0px;
     padding: 0px;
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     flex-direction: flex; 
     justify-content: space-between;
   }
 
   .service1 {
-    margin-left: 10px;
+    margin: 20px;
     align-items: left;
     width:50%; /* Margin-left for icon next to p */
     height: 500px;
@@ -25,7 +21,7 @@
     margin-right: 10px;
     color: #000000;
     padding: 5px;
-    font-size: 36px;
+    font-size: 18px;
     font-weight: bold;
     display: flex;
   }
@@ -55,6 +51,8 @@
     margin-top: 10px;
     padding: 0px;
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     flex-direction: flex; 
     justify-content: space-between;
   }
@@ -66,16 +64,12 @@
     height: 500px;
   }
   
-  .description2 {
-    margin-top: 10px;
-  }
-  
   .description2 p {
-    margin-left: 10px;
+    margin-right: 10px;
     margin: 5px 5px;
     color: #000000;
     padding: 5px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     display: flex;
   }
@@ -105,6 +99,8 @@
     margin-top: 10px;
     padding: 0px;
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     flex-direction: flex; 
     justify-content: space-between;
   }
@@ -121,7 +117,7 @@
     margin-right: 10px;
     color: #000000;
     padding: 5px;
-    font-size: 36px;
+    font-size: 18px;
     font-weight: bold;
     display: flex;
   }
@@ -152,6 +148,8 @@
     padding: 0px;
     display: flex;
     flex-direction: flex; 
+    flex: 1;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   .service4 {
@@ -162,16 +160,12 @@
     height: 500px;
   }
   
-  .description4 {
-    margin-top: 10px;
-  }
-  
   .description4 p {
     margin-left: 10px;
     margin: 5px 5px;
     color: #000000;
     padding: 5px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     display: flex;
   }
