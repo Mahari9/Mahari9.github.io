@@ -6,17 +6,18 @@
   margin-top: 30px;
   padding: 0px;
   display: flex;
-  flex-direction: row-reverse; 
+  flex-direction: row; 
   justify-content: space-between;
 }
 
 .description1 p {
-  margin-left: 10px;
+  margin-right: 10px;
   color: #000000;
   padding: 5px;
   font-size: 18px;
   font-weight: bold;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .btn1 {
@@ -25,13 +26,13 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin-left: 40px;
+  margin-right: 40px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .description1 h2 {
-  margin-left: 10px;
+  margin-right: 10px;
   color: #000000;
   padding: 0px;
   font-size: 36px;
@@ -40,7 +41,7 @@
 }
 
 .service1 img {
-  margin-right: 10px;
+  margin-left: 10px;
   align-items: left;
   width:100%; /* Margin-left for icon next to p */
   height: 500px;
