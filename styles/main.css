@@ -1,51 +1,54 @@
 /* Style the main content area */
-  .rest {
-    width: 100%;
-    padding: 0px;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    flex-direction: flex; 
-    justify-content: space-between;
-  }
+  
+.rest {
+  width: 100%;
+  height: 520px;
+  background-color: #98FB98;
+  margin-top: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: flex; 
+  justify-content: space-between;
+}
 
-  .service1 {
-    margin: 20px;
-    align-items: left;
-    width:50%; /* Margin-left for icon next to p */
-    height: 500px;
-  }
-  
-  
-  .description1 p {
-    margin-right: 10px;
-    color: #000000;
-    padding: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-  }
-  
-  .btn1 {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 40px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .description1 h3 {
-    margin-right: 10px;
-    color: #000000;
-    padding: 0px;
-    font-size: 36px;
-    font-weight: bold;
-    display: flex;
-  }
-  
+.description1 p {
+  margin-right: 10px;
+  color: #000000;
+  padding: 5px;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  margin-top: 150px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.description1 h2 {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #000000;
+  padding: 0px;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+}
+
+.service img {
+  margin-top: 5px;
+  margin-left: 10px;
+  align-items: right;
+  width:1000px; /* Margin-left for icon next to p */
+  height: 500px;
+}
   .track {
     width: 100%;
     margin-top: 10px;
@@ -56,7 +59,7 @@
     flex-direction: flex; 
     justify-content: space-between;
   }
-  .service2 {
+  .service2 img {
     margin-right: 10px;
     margin-top: 10px;
     align-items: right;
@@ -105,7 +108,7 @@
     justify-content: space-between;
   }
 
-  .service3 {
+  .service3 image {
     margin-left: 10px;
     align-items: left;
     width:50%; /* Margin-left for icon next to p */
@@ -152,7 +155,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .service4 {
+  .service4 img {
     margin-right: 10px;
     margin-top: 10px;
     align-items: right;
